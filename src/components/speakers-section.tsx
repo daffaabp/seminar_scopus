@@ -6,7 +6,7 @@ const speakers = [
     name: "Dr. Nuri Nurlaila Setiawan, S.Si., M.Si.",
     title: "Scientific Publication Consultant",
     image: "/speakers/Dr. Nuri Nurlaila Setiawan, S.Si., M.Si..png",
-    bio: "Memiliki pengalaman 15+ tahun di dunia publikasi ilmiah dengan lebih dari 50 artikel terindeks Scopus Q1-Q2. Aktif sebagai reviewer di berbagai jurnal internasional bereputasi."
+    bio: "Berpengalaman di bidang ekologi, biologi, dan analisis data ilmiah. Saat ini berperan sebagai Scientific Editor di Sintesa.id, serta Researcher & Data Analyst di Hungarian Institute for Organic Agriculture. Aktif menulis dan berkolaborasi dalam berbagai publikasi ilmiah bersama rekan-rekan di ITB, dengan fokus pada riset berkelanjutan dan pengembangan ilmu lingkungan."
   },
   {
     name: "M. Arianto",
