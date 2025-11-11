@@ -22,7 +22,7 @@ Saat ini saya berperan sebagai Scientific Editor di Sintesa.id dan Researcher & 
 
 Sebagai AI Engineer & Consultant dengan pengalaman 10+ tahun dan 195+ proyek AI, saya melihat banyak dosen dan peneliti kesulitan mencari jurnal yang tepat karena tidak tahu cara memanfaatkan tools dan teknik pencarian yang efektif.
 
-Sejak 2015, saya sudah menjadi Pembina Kelas Inovatif dan mentor untuk 3.000+ akademisi. Banyak dari mereka yang awalnya bingung memilih jurnal, akhirnya berhasil publikasi setelah menguasai teknik pencarian dan analisis jurnal yang saya ajarkan.
+Sejak 2024, saya sudah menjadi Pembina Kelas Inovatif dan mentor untuk 3.000+ akademisi. Banyak dari mereka yang awalnya bingung memilih jurnal, akhirnya berhasil publikasi setelah menguasai teknik pencarian dan analisis jurnal yang saya ajarkan.
 
 Di workshop ini, saya akan share tools dan teknik AI yang bisa membantu Anda mencari jurnal Scopus yang tepat dalam hitungan menit, bukan berhari-hari.`
   }

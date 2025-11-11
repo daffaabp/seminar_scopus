@@ -12,8 +12,6 @@ export function SpecialOfferSection() {
     "Akses Tools AI Canggih untuk mencari jurnal Scopus",
     "Akses Grup Diskusi Eksklusif dengan peserta lain dan mentor",
     "Recording Webinar Selamanya — bisa ditonton ulang kapan saja",
-    "Template Checklist memilih jurnal Scopus (PDF)",
-    "Daftar Tools Gratis untuk analisis jurnal (Spreadsheet)"
   ];
 
   return (
@@ -72,41 +70,14 @@ export function SpecialOfferSection() {
                 </p>
               </div>
             </div>
-
-            {/* Urgency */}
-            <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-6 mb-8 border-2 border-red-200">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-red-100">
-                  <Clock className="w-6 h-6 text-red-600" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-slate-900 mb-2">⚠️ Penawaran Terbatas</h4>
-                  <p className="text-slate-700 leading-relaxed">
-                    Harga spesial ini hanya berlaku untuk <span className="font-bold text-red-600">50 pendaftar pertama</span> atau 
-                    sampai <span className="font-bold text-red-600">H-3 acara (11 November 2025)</span>, mana yang lebih dulu.
-                  </p>
-                  <p className="text-slate-600 mt-2">
-                    Setelah itu, harga kembali normal Rp. 249.000.
-                  </p>
-                  <p className="text-lg font-bold text-red-600 mt-3">
-                    Jangan sampai kehabisan slot!
-                  </p>
-                </div>
-              </div>
-            </div>
-
             {/* CTA */}
             <Button
               size="lg"
               onClick={scrollToRegistration}
               className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-lg py-7 shadow-xl hover:shadow-2xl transition-all"
             >
-              Daftar Workshop Sekarang - HANYA Rp. 99.000
+              Daftar - HANYA Rp. 99.000
             </Button>
-            
-            <p className="text-center text-sm text-slate-500 mt-4">
-              🔒 Pembayaran aman melalui Xendit
-            </p>
           </div>
         </div>
       </div>
