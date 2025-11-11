@@ -30,23 +30,23 @@ export function HeroSection() {
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed font-medium">
-              <span className="text-slate-700">Putus asa manuskrip Anda tak kunjung tembus </span>
-              <span className="text-blue-600 font-semibold">Scopus</span>
-              <span className="text-slate-700">? Kami bahas tuntas di </span>
-              <span className="text-indigo-600 font-semibold">webinar</span>
-              <span className="text-slate-700"> kami ini.</span>
+              <span className="text-slate-700">Saya bantu Anda kuasai </span>
+              <span className="text-blue-600 font-semibold">strategi memilih jurnal Scopus</span>
+              <span className="text-slate-700"> yang tepat, sehingga </span>
+              <span className="text-indigo-600 font-semibold">artikel berkualitas Anda</span>
+              <span className="text-slate-700"> tidak lagi ditolak hanya karena </span>
+              <span className="text-red-600 font-semibold">salah memilih jurnal target</span>
+              <span className="text-slate-700">.</span>
             </p>
             
             <p className="text-lg sm:text-xl leading-relaxed font-normal">
-              <span className="text-slate-600">Tingkatkan </span>
-              <span className="text-blue-600 font-medium">peluang publikasi</span>
-              <span className="text-slate-600"> Anda dengan menguasai </span>
-              <span className="text-indigo-600 font-medium">strategi tepat</span>
-              <span className="text-slate-600"> memilih jurnal </span>
-              <span className="text-purple-600 font-medium">Scopus berkualitas</span>
-              <span className="text-slate-600"> dan menghindari jebakan jurnal </span>
-              <span className="text-red-600 font-medium">predatory</span>
-              <span className="text-slate-600">.</span>
+              <span className="text-slate-700">Bayangkan </span>
+              <span className="text-blue-600 font-medium">3 bulan ke depan</span>
+              <span className="text-slate-700">, artikel Anda sudah </span>
+              <span className="text-indigo-600 font-medium">diterima di jurnal Scopus Q2 atau Q3</span>
+              <span className="text-slate-700"> yang tepat, tanpa harus </span>
+              <span className="text-red-600 font-medium">trial-error berkali-kali</span>
+              <span className="text-slate-700"> dan menghabiskan waktu berbulan-bulan.</span>
             </p>
             
             {/* Event Details */}

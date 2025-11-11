@@ -36,7 +36,12 @@ const testimonials = [
   }
 ];
 
-function TestimonialCard({ testimonial }: { testimonial: typeof testimonials[0] }) {
+interface TestimonialCardProps {
+  testimonial: typeof testimonials[0];
+  key?: string;
+}
+
+function TestimonialCard({ testimonial }: TestimonialCardProps) {
   return (
     <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow mb-4">
       {/* Quote Icon */}
@@ -82,10 +87,10 @@ export function TestimonialsSection() {
           {/* Left Content - Sticky Description */}
           <div className="lg:col-span-2 lg:sticky lg:top-24 space-y-6">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight font-semibold">
-              Apa Kata Mereka yang Sudah Mengikuti
+              Cerita Sukses Mereka yang Sudah Menerapkan Metode Ini
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed font-normal">
-              Banyak dosen, mahasiswa, dan peneliti telah merasakan manfaatnya dan berhasil meningkatkan kualitas publikasi ilmiah mereka.
+              Banyak dosen dan peneliti yang awalnya frustrasi karena artikel ditolak berkali-kali, akhirnya berhasil publikasi di jurnal Scopus setelah mengikuti workshop ini.
             </p>
           </div>
 

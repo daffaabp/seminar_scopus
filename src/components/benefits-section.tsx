@@ -1,29 +1,35 @@
 import React from "react";
-import { Target, Search, Award, ShieldAlert } from "lucide-react";
+import { Target, Search, Award, ShieldAlert, CheckCircle2 } from "lucide-react";
 
 const benefits = [
   {
     icon: Target,
-    title: "Strategi Memilih Jurnal Scopus yang Tepat",
-    description: "Pelajari langkah-langkah cermat sebelum menentukan jurnal, termasuk cara menilai kualitas dan reputasinya agar publikasi Anda diterima di tempat yang kredibel.",
+    title: "Tidak Lagi Merasa Frustrasi",
+    description: "Anda tidak akan lagi merasa frustrasi karena artikel bagus ditolak berkali-kali. Karena sekarang Anda tahu cara memilih jurnal yang tepat sejak awal, sesuai dengan scope dan target audience artikel Anda.",
     color: "blue"
   },
   {
     icon: Search,
-    title: "Panduan Mencari Jurnal Sesuai Topik dan Bidang Ilmu",
-    description: "Kuasai teknik pencarian efektif berdasarkan bidang keilmuan, keyword, abstrak, maupun referensi pustaka untuk menemukan jurnal yang paling relevan dengan riset Anda.",
+    title: "Waktu Lebih Efisien",
+    description: "Waktu Anda lebih efisien — tidak perlu lagi trial-error berbulan-bulan mencari jurnal. Dengan tools dan teknik yang diajarkan, Anda bisa menemukan jurnal target yang tepat dalam hitungan jam, bukan minggu.",
     color: "indigo"
   },
   {
     icon: Award,
-    title: "Memahami Sistem Peringkat dan Kriteria Jurnal Scopus",
-    description: "Pahami arti peringkat (Q1–Q4), indikator penilaian, dan kriteria utama dalam menentukan jurnal target yang sesuai dengan kualitas penelitian Anda.",
+    title: "Rasa Percaya Diri Meningkat",
+    description: "Rasa percaya diri meningkat saat submit artikel, karena Anda yakin sudah memilih jurnal yang tepat. Tidak ada lagi rasa was-was \"apakah jurnal ini cocok?\" atau \"apakah ini jurnal predatory?\"",
     color: "purple"
   },
   {
+    icon: CheckCircle2,
+    title: "Peluang Publikasi Meningkat Signifikan",
+    description: "Peluang publikasi meningkat signifikan — banyak peserta workshop kami yang berhasil publikasi di jurnal Scopus Q2 atau Q3 setelah menerapkan metode yang diajarkan. Tingkat keberhasilan mereka meningkat 3x lipat.",
+    color: "green"
+  },
+  {
     icon: ShieldAlert,
-    title: "Menghindari Jurnal Predatory dan Publikasi Bermasalah",
-    description: "Dapatkan panduan mengenali ciri-ciri jurnal palsu agar reputasi akademik Anda tetap terjaga.",
+    title: "Reputasi Akademik Terjaga",
+    description: "Reputasi akademik terjaga — Anda tidak akan lagi terjebak jurnal predatory yang bisa merusak kredibilitas akademik. Semua tools dan teknik verifikasi sudah diajarkan lengkap.",
     color: "rose"
   }
 ];
@@ -47,6 +53,12 @@ const colorClasses = {
     border: "border-purple-100",
     hover: "group-hover:bg-purple-600"
   },
+  green: {
+    bg: "bg-green-50",
+    icon: "text-green-600",
+    border: "border-green-100",
+    hover: "group-hover:bg-green-600"
+  },
   rose: {
     bg: "bg-rose-50",
     icon: "text-rose-600",
@@ -62,15 +74,15 @@ export function BenefitsSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 mb-4 font-semibold">
-            Manfaat Mengikuti Webinar Ini
+            Apa Saja Manfaat yang Akan Anda Rasakan?
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed font-normal">
-            Empat pilar utama yang akan membantu Anda menguasai seni memilih jurnal Scopus dengan tepat dan strategis
+            Setelah ikut workshop ini, Anda akan merasakan:
           </p>
         </div>
 
-        {/* Benefits Grid - 4 Columns */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Benefits Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {benefits.map((benefit, index) => {
             const colors = colorClasses[benefit.color as keyof typeof colorClasses];
             const Icon = benefit.icon;

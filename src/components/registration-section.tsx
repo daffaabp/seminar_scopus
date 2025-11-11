@@ -4,7 +4,7 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Checkbox } from "./ui/checkbox";
-import { CheckCircle2, Calendar, Clock, MapPin, Gift, Loader2 } from "lucide-react";
+import { CheckCircle2, Calendar, Clock, MapPin, Gift, Loader2, Users } from "lucide-react";
 import { supabase } from "../lib/supabase";
 
 export function RegistrationSection() {
@@ -143,6 +143,22 @@ export function RegistrationSection() {
           {/* Right Content - Registration Form */}
           <div className="lg:sticky lg:top-8">
             <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 overflow-hidden">
+              {/* Slot Counter */}
+              <div className="bg-gradient-to-r from-red-50 to-orange-50 border-b-2 border-red-200 p-6">
+                <div className="flex items-center justify-center gap-3">
+                  <Users className="w-6 h-6 text-red-600" />
+                  <div className="text-center">
+                    <p className="text-sm text-slate-600 mb-1">Sisa Slot Tersedia</p>
+                    <p className="text-2xl font-bold text-red-600">
+                      <span className="text-3xl">32</span> dari 50
+                    </p>
+                    <p className="text-xs text-slate-500 mt-1">
+                      Harga spesial Rp. 99.000 hanya untuk 50 pendaftar pertama!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               {/* Form Header */}
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 text-white">
                 <h3 className="text-2xl lg:text-3xl mb-2 font-semibold">Formulir Pendaftaran</h3>
