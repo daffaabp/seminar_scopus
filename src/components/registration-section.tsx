@@ -146,7 +146,6 @@ export function RegistrationSection() {
               {/* Slot Counter */}
               <div className="bg-gradient-to-r from-red-50 to-orange-50 border-b-2 border-red-200 p-6">
                 <div className="flex items-center justify-center gap-3">
-                  <Users className="w-6 h-6 text-red-600" />
                   <div className="text-center">
                     <p className="text-sm text-slate-600 mb-1">Sisa Slot Tersedia</p>
                     <p className="text-2xl font-bold text-red-600">

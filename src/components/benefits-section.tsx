@@ -26,12 +26,6 @@ const benefits = [
     description: "Peluang publikasi meningkat signifikan — banyak peserta workshop kami yang berhasil publikasi di jurnal Scopus Q2 atau Q3 setelah menerapkan metode yang diajarkan. Tingkat keberhasilan mereka meningkat 3x lipat.",
     color: "green"
   },
-  {
-    icon: ShieldAlert,
-    title: "Reputasi Akademik Terjaga",
-    description: "Reputasi akademik terjaga — Anda tidak akan lagi terjebak jurnal predatory yang bisa merusak kredibilitas akademik. Semua tools dan teknik verifikasi sudah diajarkan lengkap.",
-    color: "rose"
-  }
 ];
 
 const colorClasses = {

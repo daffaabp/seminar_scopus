@@ -8,10 +8,9 @@ export function SpecialOfferSection() {
   };
 
   const bonuses = [
-    "E-Sertifikat Webinar (dikirim setelah webinar selesai)",
-    "Akses Tools AI Canggih untuk mencari jurnal Scopus",
-    "Akses Grup Diskusi Eksklusif dengan peserta lain dan mentor",
-    "Recording Webinar Selamanya — bisa ditonton ulang kapan saja",
+    "E-Sertifikat Webinar",
+    "Akses Grup Diskusi Eksklusif",
+    "Recording Webinar Selamanya",
   ];
 
   return (
