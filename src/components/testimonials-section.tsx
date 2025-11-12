@@ -93,7 +93,7 @@ export function TestimonialsSection() {
               Cerita Sukses Mereka yang Sudah Menerapkan Metode Ini
             </h2>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-              Banyak dosen dan peneliti yang awalnya frustrasi karena artikel ditolak berkali-kali, akhirnya berhasil publikasi di jurnal Scopus setelah mengikuti workshop ini.
+              Masih ragu? <span className="font-semibold text-slate-900">Dengarkan cerita mereka.</span> Banyak dosen dan peneliti yang awalnya frustrasi karena artikel ditolak berkali-kali, akhirnya berhasil publikasi di jurnal Scopus setelah mengikuti workshop ini. <span className="font-medium">Dan setelah ini, Anda akan melihat apa saja yang akan Anda dapatkan.</span>
             </p>
           </div>
 

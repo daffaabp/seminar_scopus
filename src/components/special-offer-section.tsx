@@ -18,6 +18,9 @@ export function SpecialOfferSection() {
           >
             Penawaran Spesial untuk Anda
           </h2>
+          <p className="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl mx-auto mb-4">
+            Setelah melihat semua yang akan Anda dapatkan, <span className="font-semibold text-blue-600">ini penawaran spesial yang tidak boleh Anda lewatkan.</span> Dan setelah ini, <span className="font-medium">Anda bisa langsung daftar dan mulai perjalanan menuju publikasi Scopus.</span>
+          </p>
         </div>
 
         {/* Pricing Card */}
@@ -48,9 +51,6 @@ export function SpecialOfferSection() {
 
             {/* Persuasive Text */}
             <div className="text-center mb-6">
-              <p className="text-base sm:text-lg text-slate-700 leading-relaxed mb-3">
-                Bayangkan, dengan investasi <span className="font-bold text-blue-600">Rp. 99.000</span> saja, Anda sudah bisa menguasai strategi memilih jurnal Scopus yang tepat dan langsung tembus publikasi dalam waktu singkat.
-              </p>
               <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
                 Sayang banget kalau gak ambil sekarang. Setelah 50 pendaftar pertama, harga akan kembali normal.
               </p>

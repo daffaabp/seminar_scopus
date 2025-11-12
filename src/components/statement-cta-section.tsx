@@ -22,7 +22,7 @@ export function StatementCTASection() {
           </h2>
           
           <p className="text-base sm:text-lg text-white leading-relaxed mb-6 max-w-3xl mx-auto">
-            Ini adalah <span className="font-bold">investasi untuk karir akademik Anda</span> yang akan membuka peluang publikasi di jurnal Scopus berkualitas.
+            Setelah melihat manfaat yang bisa Anda dapatkan, <span className="font-bold">ini yang perlu Anda pahami:</span> Ini adalah <span className="font-bold">investasi untuk karir akademik Anda</span> yang akan membuka peluang publikasi di jurnal Scopus berkualitas.
           </p>
           
           <p className="text-base sm:text-lg text-white leading-relaxed mb-8 max-w-3xl mx-auto">
