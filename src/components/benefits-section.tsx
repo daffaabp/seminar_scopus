@@ -19,6 +19,9 @@ export function BenefitsSection() {
           >
             Apa Saja Manfaat yang Akan Anda Rasakan?
           </h2>
+          <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
+            Setelah mengikuti workshop ini, <span className="font-semibold text-blue-600">inilah yang akan berubah dalam hidup akademik Anda.</span> Dan ini bukan sekadar janji—<span className="font-medium">banyak yang sudah membuktikannya.</span>
+          </p>
         </div>
 
         {/* Benefits List */}

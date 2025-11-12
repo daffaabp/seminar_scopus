@@ -74,7 +74,7 @@ export function HeroSection() {
           </div>
 
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto pt-2">
-            Pernah merasa artikel Anda <span className="font-semibold text-blue-600">sudah bagus</span> tapi selalu mental di review? Anda tidak sendiri—kami bantu pecahkan masalahnya di sini!
+            Tapi tunggu dulu... <span className="font-semibold text-blue-600">Pernah merasa artikel Anda sudah bagus</span> tapi selalu ditolak di review? <span className="font-medium">Mari kita lihat apa yang sebenarnya terjadi...</span>
           </p>
         </div>
       </div>

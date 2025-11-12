@@ -37,7 +37,7 @@ export function ProblemSection() {
             Masalah yang Sering Dihadapi Dosen & Peneliti
           </h2>
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-            Artikel sudah bagus, tapi selalu ditolak? <span className="font-medium">Saya paham rasanya.</span>
+            Artikel sudah bagus, tapi selalu ditolak? <span className="font-medium">Saya paham rasanya.</span> Setelah melihat masalah-masalah ini, <span className="font-semibold text-slate-900">mungkin Anda bertanya: "Lalu, bagaimana solusinya?"</span>
           </p>
         </div>
 

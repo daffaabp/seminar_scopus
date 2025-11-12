@@ -12,11 +12,14 @@ export function SolutionSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-10">
           <h2 
-            className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold mb-6"
+            className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold mb-4"
             style={{ fontWeight: 900 }}
           >
             Workshop Ini Dirancang Khusus untuk Mengatasi Masalah Anda
           </h2>
+          <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
+            Setelah memahami masalah Anda, <span className="font-semibold text-green-700">ini solusinya.</span> Dan setelah ini, <span className="font-medium">Anda akan melihat manfaat nyata yang bisa Anda dapatkan.</span>
+          </p>
         </div>
 
         {/* Content */}

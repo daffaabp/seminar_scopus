@@ -79,24 +79,24 @@ export function RegistrationSection() {
                 className="text-xl sm:text-2xl lg:text-3xl text-slate-900 mb-4 font-bold"
                 style={{ fontWeight: 900 }}
               >
-                Bayangin Kalau Anda Melewatkan Kesempatan Ini?
+                Saatnya Ambil Keputusan
               </h2>
               
               <div className="space-y-3 text-base sm:text-lg text-slate-700 leading-relaxed">
                 <p>
-                  <span className="font-semibold">Jangan sampai</span> artikel berkualitas Anda terus ditolak atau waktu terbuang untuk trial-error berbulan-bulan.
+                  Setelah melihat semua yang sudah kami sampaikan, <span className="font-semibold">ini saatnya Anda bertindak.</span> Setiap detik yang Anda tunggu, kesempatan publikasi semakin dekat dengan deadline.
                 </p>
                 
                 <p>
-                  <span className="font-semibold">Bayangin kalau</span> dalam <span className="text-blue-600 font-bold">1 bulan ke depan</span>, artikel Anda sudah diterima di jurnal Scopus yang tepat.
+                  <span className="font-semibold">Pikirkan ini:</span> <span className="text-blue-600 font-bold">500+ dosen dan peneliti</span> sudah merasakan perubahan setelah mengikuti workshop ini. Mereka yang dulu frustrasi, sekarang sudah punya sistem yang jelas.
                 </p>
                 
                 <p className="text-lg sm:text-xl font-semibold text-slate-900 pt-2">
-                  Goal utama: <span className="text-blue-600">Tembus Scopus dalam 1 Bulan</span>
+                  <span className="text-blue-600">Anda bisa jadi yang berikutnya.</span>
                 </p>
                 
                 <p className="text-base sm:text-lg font-medium text-slate-800 pt-2">
-                  Dan semuanya dimulai dari Anda, hari ini.
+                  Mulai perjalanan Anda sekarang. Isi formulir di sebelah kanan dan ambil langkah pertama menuju publikasi yang sukses.
                 </p>
               </div>
             </div>

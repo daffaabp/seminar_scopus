@@ -22,6 +22,9 @@ export function FeaturesSection() {
           >
             Apa Saja yang Akan Anda Dapatkan?
           </h2>
+          <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
+            Setelah melihat testimoni mereka, <span className="font-semibold text-slate-900">ini yang akan Anda dapatkan secara lengkap.</span> Dan setelah ini, <span className="font-medium">Anda akan melihat penawaran spesial yang tidak boleh Anda lewatkan.</span>
+          </p>
         </div>
 
         {/* Features List */}
