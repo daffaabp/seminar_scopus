@@ -5,25 +5,25 @@ const benefits = [
   {
     icon: Target,
     title: "Tidak Lagi Merasa Frustrasi",
-    description: "Anda tidak akan lagi merasa frustrasi karena artikel bagus ditolak berkali-kali. Karena sekarang Anda tahu cara memilih jurnal yang tepat sejak awal, sesuai dengan scope dan target audience artikel Anda.",
+    description: "Anda tidak akan lagi merasa frustrasi karena artikel bagus ditolak berkali-kali. Karena sekarang Anda tahu cara memilih jurnal yang tepat sejak awal, sesuai dengan scope dan target audience artikel Anda. Tidak ada lagi rasa kecewa dan bingung setiap kali menerima email penolakan. Anda bisa fokus pada penelitian berikutnya dengan percaya diri.",
     color: "blue"
   },
   {
     icon: Search,
     title: "Waktu Lebih Efisien",
-    description: "Waktu Anda lebih efisien — tidak perlu lagi trial-error berbulan-bulan mencari jurnal. Dengan tools dan teknik yang diajarkan, Anda bisa menemukan jurnal target yang tepat dalam hitungan jam, bukan minggu.",
+    description: "Waktu Anda lebih efisien — tidak perlu lagi trial-error berbulan-bulan mencari jurnal. Dengan tools dan teknik yang diajarkan, Anda bisa menemukan jurnal target yang tepat dalam hitungan jam, bukan minggu. Anda bisa mengalokasikan waktu yang tersisa untuk menulis artikel berkualitas atau menyelesaikan penelitian lain yang tertunda.",
     color: "indigo"
   },
   {
     icon: Award,
     title: "Rasa Percaya Diri Meningkat",
-    description: "Rasa percaya diri meningkat saat submit artikel, karena Anda yakin sudah memilih jurnal yang tepat. Tidak ada lagi rasa was-was \"apakah jurnal ini cocok?\" atau \"apakah ini jurnal predatory?\"",
+    description: "Rasa percaya diri meningkat saat submit artikel, karena Anda yakin sudah memilih jurnal yang tepat. Tidak ada lagi rasa was-was 'apakah jurnal ini cocok?' atau 'apakah ini jurnal predatory?'. Anda bisa submit artikel dengan tenang dan fokus pada hal-hal yang lebih penting seperti meningkatkan kualitas penelitian Anda.",
     color: "purple"
   },
   {
     icon: CheckCircle2,
     title: "Peluang Publikasi Meningkat Signifikan",
-    description: "Peluang publikasi meningkat signifikan — banyak peserta workshop kami yang berhasil publikasi di jurnal Scopus Q2 atau Q3 setelah menerapkan metode yang diajarkan. Tingkat keberhasilan mereka meningkat 3x lipat.",
+    description: "Peluang publikasi meningkat signifikan — banyak peserta workshop kami yang berhasil publikasi di jurnal Scopus Q2 atau Q3 setelah menerapkan metode yang diajarkan. Tingkat keberhasilan mereka meningkat 3x lipat. Ini bukan hanya tentang publikasi, tapi tentang membangun reputasi akademik yang kuat dan membuka peluang karir yang lebih baik.",
     color: "green"
   },
 ];
