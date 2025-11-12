@@ -73,19 +73,40 @@ export function RegistrationSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Content - Information */}
           <div className="space-y-8">
-            <div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 mb-6 font-semibold">
-                Jangan Lewatkan Kesempatan Ini!
+            {/* Closing Hook */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 border border-blue-100">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl text-slate-900 mb-4 font-bold">
+                Bayangin Kalau Anda Melewatkan Kesempatan Ini?
               </h2>
-              <p className="text-lg text-slate-600 leading-relaxed font-normal">
-                Tempat terbatas! Segera daftarkan diri Anda untuk mendapatkan akses eksklusif ke webinar ini dan tingkatkan peluang publikasi Scopus Anda.
-              </p>
+              
+              <div className="space-y-3 text-base sm:text-lg text-slate-700 leading-relaxed">
+                <p>
+                  <span className="font-semibold">Jangan sampai</span> artikel berkualitas Anda terus ditolak atau waktu terbuang untuk trial-error berbulan-bulan.
+                </p>
+                
+                <p>
+                  <span className="font-semibold">Bayangin kalau</span> dalam <span className="text-blue-600 font-bold">1 bulan ke depan</span>, artikel Anda sudah diterima di jurnal Scopus yang tepat.
+                </p>
+                
+                <p className="text-lg sm:text-xl font-semibold text-slate-900 pt-2">
+                  Goal utama: <span className="text-blue-600">Tembus Scopus dalam 1 Bulan</span>
+                </p>
+                
+                <p className="text-base sm:text-lg font-medium text-slate-800 pt-2">
+                  Dan semuanya dimulai dari Anda, hari ini.
+                </p>
+              </div>
             </div>
 
             {/* Event Details Card */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
               <h3 className="text-xl text-slate-900 mb-6 font-semibold">Detail Acara</h3>
               <div className="space-y-4">
+                <div className="mb-4 pb-4 border-b border-slate-200">
+                  <p className="text-sm text-slate-500 font-medium mb-2">Nama Event</p>
+                  <p className="text-lg text-slate-900 font-semibold">Rahasia Memilih Jurnal Scopus yang Tepat untuk Publikasi Anda</p>
+                </div>
+                
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-lg bg-blue-50 flex-shrink-0">
                     <Calendar className="w-5 h-5 text-blue-600" />
@@ -117,46 +138,12 @@ export function RegistrationSection() {
                 </div>
               </div>
             </div>
-
-            {/* Benefits */}
-            <div className="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl p-8 text-white">
-              <div className="flex items-center gap-3 mb-6">
-                <Gift className="w-6 h-6" />
-                <h3 className="text-xl font-semibold">Yang Anda Dapatkan:</h3>
-              </div>
-              <ul className="space-y-3">
-                {[
-                  "E-Sertifikat Webinar",
-                  "Akses tools AI canggih",
-                  "Akses Grup Diskusi Eksklusif",
-                  "Recording Webinar selamanya"
-                ].map((benefit, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                    <span className="text-base">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
 
           {/* Right Content - Registration Form */}
           <div className="lg:sticky lg:top-8">
             <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 overflow-hidden">
               {/* Slot Counter */}
-              <div className="bg-gradient-to-r from-red-50 to-orange-50 border-b-2 border-red-200 p-6">
-                <div className="flex items-center justify-center gap-3">
-                  <div className="text-center">
-                    <p className="text-sm text-slate-600 mb-1">Sisa Slot Tersedia</p>
-                    <p className="text-2xl font-bold text-red-600">
-                      <span className="text-3xl">32</span> dari 50
-                    </p>
-                    <p className="text-xs text-slate-500 mt-1">
-                      Harga spesial Rp. 99.000 hanya untuk 50 pendaftar pertama!
-                    </p>
-                  </div>
-                </div>
-              </div>
 
               {/* Form Header */}
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 text-white">
@@ -262,7 +249,26 @@ export function RegistrationSection() {
                         required
                       />
                       <label htmlFor="terms" className="text-sm text-slate-600 leading-relaxed cursor-pointer">
-                        Saya setuju untuk menerima informasi webinar dan materi terkait publikasi ilmiah melalui email dan WhatsApp
+                        Saya setuju untuk menerima informasi webinar dan materi terkait publikasi ilmiah melalui email dan WhatsApp. Saya juga telah membaca dan menyetujui{" "}
+                        <a 
+                          href="/terms-of-service" 
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-blue-600 hover:text-blue-700 underline font-medium"
+                        >
+                          Syarat & Ketentuan
+                        </a>{" "}
+                        dan{" "}
+                        <a 
+                          href="/privacy-policy" 
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-blue-600 hover:text-blue-700 underline font-medium"
+                        >
+                          Kebijakan Privasi
+                        </a>.
                       </label>
                     </div>
 

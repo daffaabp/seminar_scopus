@@ -2394,10 +2394,6 @@ html {
   animation: 30s linear infinite scroll-up;
 }
 
-.animate-scroll-up:hover {
-  animation-play-state: paused;
-}
-
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
