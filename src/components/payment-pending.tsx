@@ -134,7 +134,7 @@ export function PaymentPending() {
       <div className="max-w-2xl w-full bg-white rounded-2xl shadow-2xl border border-slate-100 p-8 lg:p-12">
         {renderStatusIcon()}
 
-        <h1 className={`text-3xl lg:text-4xl font-semibold text-center mb-4 ${getStatusColor()}`}>
+        <h1 className={`text-3xl lg:text-4xl font-bold text-center mb-4 ${getStatusColor()}`}>
           {renderTitle()}
         </h1>
 
