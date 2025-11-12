@@ -43,7 +43,7 @@ export function HeroSection() {
               <span className="text-slate-700">Bayangkan </span>
               <span className="text-blue-600 font-medium">3 bulan ke depan</span>
               <span className="text-slate-700">, artikel Anda sudah </span>
-              <span className="text-indigo-600 font-medium">diterima di jurnal Scopus Q2 atau Q3</span>
+              <span className="text-indigo-600 font-medium">diterima di jurnal Scopus Q3, Q2, atau Q1</span>
               <span className="text-slate-700"> yang tepat, tanpa harus </span>
               <span className="text-red-600 font-medium">trial-error berkali-kali</span>
               <span className="text-slate-700"> dan menghabiskan waktu berbulan-bulan.</span>
