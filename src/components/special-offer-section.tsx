@@ -47,6 +47,16 @@ export function SpecialOfferSection() {
                   <p className="font-semibold">Hemat Rp. 150.000 - Diskon 60%</p>
                 </div>
               </div>
+              
+              {/* Urgency Message */}
+              <div className="bg-orange-50 border border-orange-200 rounded-xl p-4 mb-4">
+                <div className="flex items-center justify-center gap-2">
+                  <Clock className="w-5 h-5 text-orange-600" />
+                  <p className="text-orange-700 font-medium">
+                    <span className="font-bold">Penawaran terbatas!</span> Hanya untuk 50 pendaftar pertama atau sampai 11 November 2025
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Bonuses */}
