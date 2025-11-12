@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 lg:pt-16 pb-12 lg:pb-20">
         <div className="text-center space-y-6 lg:space-y-8">
           
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight font-semibold">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight font-black">
             <span className="text-slate-900">Bantu </span>
             <span className="text-blue-600 font-bold">Dosen & Peneliti</span>
             <span className="text-slate-900"> </span>
@@ -25,11 +25,11 @@ export function HeroSection() {
             <span className="text-blue-600 font-bold">1 Bulan</span>
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed font-medium max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl leading-relaxed font-medium max-w-4xl mx-auto">
             <span className="text-slate-700">Kuasai strategi memilih jurnal Scopus yang tepat, sehingga artikel berkualitas Anda tidak lagi ditolak hanya karena salah memilih jurnal target.</span>
           </p>
           
-          <p className="text-lg sm:text-xl leading-relaxed font-normal max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg leading-relaxed font-normal max-w-4xl mx-auto">
             <span className="text-slate-700">Bayangkan </span>
             <span className="text-blue-600 font-medium">1 bulan ke depan</span>
             <span className="text-slate-700">, artikel Anda sudah diterima di jurnal Scopus Q1, Q2, atau Q3 yang tepat. Tidak perlu lagi trial-error berbulan-bulan.</span>

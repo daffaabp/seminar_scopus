@@ -86,10 +86,10 @@ export function TestimonialsSection() {
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           {/* Left Content - Sticky Description */}
           <div className="lg:col-span-2 lg:sticky lg:top-24 space-y-6">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight font-semibold">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight font-bold">
               Cerita Sukses Mereka yang Sudah Menerapkan Metode Ini
             </h2>
-            <p className="text-lg text-slate-600 leading-relaxed font-normal">
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
               Banyak dosen dan peneliti yang awalnya frustrasi karena artikel ditolak berkali-kali, akhirnya berhasil publikasi di jurnal Scopus setelah mengikuti workshop ini.
             </p>
           </div>

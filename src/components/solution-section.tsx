@@ -11,7 +11,7 @@ export function SolutionSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-10">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-semibold mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold mb-6">
             Workshop Ini Dirancang Khusus untuk Mengatasi Masalah Anda
           </h2>
         </div>
@@ -19,7 +19,7 @@ export function SolutionSection() {
         {/* Content */}
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-lg border border-green-100 p-6 lg:p-10 flex flex-col gap-6">
-            <p className="text-lg sm:text-xl text-slate-700 leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
               Workshop <span className="text-blue-600 font-semibold">"Rahasia Memilih Jurnal Scopus yang Tepat"</span> adalah panduan praktis untuk <span className="font-medium">dosen, peneliti, dan mahasiswa</span> <span className="text-indigo-600 font-semibold">agar mampu menentukan jurnal Scopus yang paling sesuai sejak awal</span>.
               <br className="hidden sm:block" />
               Dengan metode yang sudah teruji, Anda dapat <span className="text-indigo-600 font-semibold">langsung tembus Scopus dalam waktu singkat</span>—tanpa perlu trial-error, tanpa kebingungan memilih jurnal, dan peluang artikel diterima menjadi jauh lebih besar.

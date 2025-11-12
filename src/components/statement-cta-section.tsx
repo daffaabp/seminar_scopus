@@ -18,7 +18,7 @@ export function StatementCTASection() {
             Workshop Ini Bukan Sekadar Pelatihan
           </h2>
           
-          <p className="text-lg sm:text-xl text-white leading-relaxed mb-6 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-white leading-relaxed mb-6 max-w-3xl mx-auto">
             Ini adalah <span className="font-bold">investasi untuk karir akademik Anda</span> yang akan membuka peluang publikasi di jurnal Scopus berkualitas.
           </p>
           
