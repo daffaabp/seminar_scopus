@@ -86,7 +86,10 @@ export function TestimonialsSection() {
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           {/* Left Content - Sticky Description */}
           <div className="lg:col-span-2 lg:sticky lg:top-24 space-y-6">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight font-bold">
+            <h2 
+              className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight font-bold"
+              style={{ fontWeight: 900 }}
+            >
               Cerita Sukses Mereka yang Sudah Menerapkan Metode Ini
             </h2>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">

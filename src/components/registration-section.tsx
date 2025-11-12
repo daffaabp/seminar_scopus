@@ -4,7 +4,7 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Checkbox } from "./ui/checkbox";
-import { CheckCircle2, Calendar, Clock, MapPin, Gift, Loader2, Users } from "lucide-react";
+import { CheckCircle2, Calendar, Clock, MapPin, Loader2 } from "lucide-react";
 import { supabase } from "../lib/supabase";
 
 export function RegistrationSection() {
@@ -75,7 +75,10 @@ export function RegistrationSection() {
           <div className="space-y-8">
             {/* Closing Hook */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 border border-blue-100">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl text-slate-900 mb-4 font-bold">
+              <h2 
+                className="text-xl sm:text-2xl lg:text-3xl text-slate-900 mb-4 font-bold"
+                style={{ fontWeight: 900 }}
+              >
                 Bayangin Kalau Anda Melewatkan Kesempatan Ini?
               </h2>
               
@@ -100,7 +103,12 @@ export function RegistrationSection() {
 
             {/* Event Details Card */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100">
-              <h3 className="text-xl text-slate-900 mb-6 font-semibold">Detail Acara</h3>
+              <h3 
+                className="text-xl text-slate-900 mb-6 font-bold"
+                style={{ fontWeight: 900 }}
+              >
+                Detail Acara
+              </h3>
               <div className="space-y-4">
                 <div className="mb-4 pb-4 border-b border-slate-200">
                   <p className="text-sm text-slate-500 font-medium mb-2">Nama Event</p>
@@ -147,7 +155,12 @@ export function RegistrationSection() {
 
               {/* Form Header */}
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 text-white">
-                <h3 className="text-2xl lg:text-3xl mb-2 font-semibold">Formulir Pendaftaran</h3>
+                <h3 
+                  className="text-2xl lg:text-3xl mb-2 font-bold"
+                  style={{ fontWeight: 900 }}
+                >
+                  Formulir Pendaftaran
+                </h3>
                 <p className="text-blue-100 font-medium">Isi data Anda dengan lengkap</p>
               </div>
 

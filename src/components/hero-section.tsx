@@ -15,26 +15,27 @@ export function HeroSection() {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 lg:pt-16 pb-12 lg:pb-20">
         <div className="text-center space-y-6 lg:space-y-8">
-          
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight font-black">
-            <span className="text-slate-900">Bantu </span>
-            <span className="text-blue-600 font-bold">Dosen & Peneliti</span>
-            <span className="text-slate-900"> </span>
-            <span className="text-indigo-600 font-bold">Tembus Scopus</span>
-            <span className="text-slate-900"> dalam </span>
-            <span className="text-blue-600 font-bold">1 Bulan</span>
+          {/* Biggest Goal */}
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight" style={{ fontWeight: 900 }}>
+            <span className="text-slate-900" style={{ fontWeight: 900 }}>Impian </span>
+            <span className="text-blue-600" style={{ fontWeight: 900 }}>Setiap Dosen &amp; Peneliti:</span>
+            <span className="text-slate-900" style={{ fontWeight: 900 }}> </span>
+            <span className="text-indigo-600" style={{ fontWeight: 900 }}>Artikel Tem&#8203;bus Scopus</span>
+            <span className="text-slate-900" style={{ fontWeight: 900 }}> dalam </span>
+            <span className="text-blue-600" style={{ fontWeight: 900 }}>1 Bulan</span>
           </h1>
-          
-          <p className="text-base sm:text-lg lg:text-xl leading-relaxed font-medium max-w-4xl mx-auto">
-            <span className="text-slate-700">Kuasai strategi memilih jurnal Scopus yang tepat, sehingga artikel berkualitas Anda tidak lagi ditolak hanya karena salah memilih jurnal target.</span>
+
+          {/* Biggest Problem */}
+          {/* Harapan/Biggest Goal */}
+          <p className="text-base sm:text-lg lg:text-xl leading-relaxed font-semibold text-slate-900 max-w-3xl mx-auto">
+            Bayangkan jika artikel Anda <span className="font-bold">diterima Scopus</span> hanya dalam <span className="font-extrabold">1 bulan</span>: reputasi meningkat, karir akademik melesat, dan kepercayaan diri bertambah pesat!
           </p>
-          
-          <p className="text-base sm:text-lg leading-relaxed font-normal max-w-4xl mx-auto">
-            <span className="text-slate-700">Bayangkan </span>
-            <span className="text-blue-600 font-medium">1 bulan ke depan</span>
-            <span className="text-slate-700">, artikel Anda sudah diterima di jurnal Scopus Q1, Q2, atau Q3 yang tepat. Tidak perlu lagi trial-error berbulan-bulan.</span>
+
+          {/* Solusi */}
+          <p className="text-base sm:text-lg lg:text-xl leading-relaxed font-medium text-slate-700 max-w-3xl mx-auto">
+            Di webinar ini, Anda sudah berada di tempat yang tepat untuk memecahkan masalah publikasi jurnal Scopus. Anda akan dipandu <span className="font-bold">langkah demi langkah</span> supaya tidak lagi salah memilih jurnal dan <span className="text-indigo-700 font-bold">peluang tembus publikasi bisa meningkat berkali lipat</span>.
           </p>
-          
+
           {/* Event Details */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 max-w-md mx-auto">
             <div className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm border border-slate-100 w-full">
@@ -73,9 +74,8 @@ export function HeroSection() {
           </div>
 
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto pt-2">
-            Tapi sebelum itu, izinkan saya tanya: apakah Anda pernah mengalami hal ini?
+            Pernah merasa artikel Anda <span className="font-semibold text-blue-600">sudah bagus</span> tapi selalu mental di review? Anda tidak sendiri—kami bantu pecahkan masalahnya di sini!
           </p>
-          
         </div>
       </div>
     </section>

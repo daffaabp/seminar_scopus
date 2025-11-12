@@ -134,7 +134,10 @@ export function PaymentPending() {
       <div className="max-w-2xl w-full bg-white rounded-2xl shadow-2xl border border-slate-100 p-8 lg:p-12">
         {renderStatusIcon()}
 
-        <h1 className={`text-3xl lg:text-4xl font-bold text-center mb-4 ${getStatusColor()}`}>
+        <h1 
+          className={`text-3xl lg:text-4xl font-bold text-center mb-4 ${getStatusColor()}`}
+          style={{ fontWeight: 900 }}
+        >
           {renderTitle()}
         </h1>
 
@@ -144,7 +147,12 @@ export function PaymentPending() {
 
         {status === "settlement" && registration && (
           <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
-            <h3 className="font-semibold text-green-900 mb-3">Detail Registrasi:</h3>
+            <h3 
+              className="font-bold text-green-900 mb-3"
+              style={{ fontWeight: 900 }}
+            >
+              Detail Registrasi:
+            </h3>
             <div className="space-y-2 text-sm text-green-800">
               <p><strong>Nama:</strong> {registration.name}</p>
               <p><strong>Email:</strong> {registration.email}</p>
@@ -155,7 +163,12 @@ export function PaymentPending() {
 
         {status === "settlement" && (
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
-            <h3 className="font-semibold text-blue-900 mb-3">Langkah Selanjutnya:</h3>
+            <h3 
+              className="font-bold text-blue-900 mb-3"
+              style={{ fontWeight: 900 }}
+            >
+              Langkah Selanjutnya:
+            </h3>
             <ul className="space-y-2 text-sm text-blue-800">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" />

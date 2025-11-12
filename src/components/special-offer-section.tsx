@@ -12,7 +12,10 @@ export function SpecialOfferSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 mb-4 font-bold">
+          <h2 
+            className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 mb-4 font-bold"
+            style={{ fontWeight: 900 }}
+          >
             Penawaran Spesial untuk Anda
           </h2>
         </div>

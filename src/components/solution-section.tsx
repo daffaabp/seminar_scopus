@@ -11,7 +11,10 @@ export function SolutionSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-10">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold mb-6">
+          <h2 
+            className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold mb-6"
+            style={{ fontWeight: 900 }}
+          >
             Workshop Ini Dirancang Khusus untuk Mengatasi Masalah Anda
           </h2>
         </div>
@@ -20,20 +23,12 @@ export function SolutionSection() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-lg border border-green-100 p-6 lg:p-10 flex flex-col gap-6">
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-              Workshop <span className="text-blue-600 font-semibold">"Rahasia Memilih Jurnal Scopus yang Tepat"</span> adalah panduan praktis untuk <span className="font-medium">dosen, peneliti, dan mahasiswa</span> <span className="text-indigo-600 font-semibold">agar mampu menentukan jurnal Scopus yang paling sesuai sejak awal</span>.
-              <br className="hidden sm:block" />
-              Dengan metode yang sudah teruji, Anda dapat <span className="text-indigo-600 font-semibold">langsung tembus Scopus dalam waktu singkat</span>—tanpa perlu trial-error, tanpa kebingungan memilih jurnal, dan peluang artikel diterima menjadi jauh lebih besar.
+              Workshop <span className="text-blue-600 font-semibold">"Rahasia Memilih Jurnal Scopus yang Tepat"</span> adalah panduan praktis untuk <span className="font-medium">dosen, peneliti, dan mahasiswa</span> <span className="text-indigo-600 font-semibold">menentukan jurnal Scopus yang paling sesuai sejak awal</span>. Dengan metode teruji, Anda bisa <span className="text-indigo-600 font-semibold">langsung tembus Scopus dalam waktu singkat</span>—tanpa trial-error berbulan-bulan.
             </p>
 
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-              Belajar lewat workshop 2 jam intensif, dengan tools dan teknik yang langsung bisa dipraktikkan. Tidak perlu trial-error berbulan-bulan lagi.
+              Belajar lewat workshop 2 jam intensif dengan tools dan teknik yang langsung bisa dipraktikkan. Setelah ikut, Anda akan tahu cara memilih jurnal yang tepat sejak awal, sehingga artikel berkualitas langsung diterima tanpa ditolak berkali-kali.
             </p>
-
-            <div className="bg-blue-50 rounded-xl p-6">
-              <p className="text-base sm:text-lg text-blue-800 leading-relaxed font-medium">
-                Setelah ikut workshop ini, Anda akan tahu cara memilih jurnal yang tepat sejak awal, sehingga artikel berkualitas Anda langsung diterima di jurnal target tanpa harus ditolak berkali-kali.
-              </p>
-            </div>
 
             <div className="flex justify-center pt-3">
               <Button
