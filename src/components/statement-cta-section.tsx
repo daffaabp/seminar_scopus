@@ -14,7 +14,10 @@ export function StatementCTASection() {
       
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white mb-6 font-bold">
+          <h2 
+            className="text-3xl sm:text-4xl lg:text-5xl text-white mb-6 font-bold"
+            style={{ fontWeight: 900 }}
+          >
             Workshop Ini Bukan Sekadar Pelatihan
           </h2>
           

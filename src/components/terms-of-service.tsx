@@ -18,7 +18,10 @@ export function TermsOfService() {
           Kembali ke Beranda
         </Button>
 
-        <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+        <h1 
+          className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6"
+          style={{ fontWeight: 900 }}
+        >
           Syarat & Ketentuan
         </h1>
 
@@ -28,21 +31,30 @@ export function TermsOfService() {
           </p>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">1. Penerimaan Syarat</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >1. Penerimaan Syarat</h2>
             <p>
               Dengan mengakses dan menggunakan layanan Kelas Inovatif, Anda menyetujui untuk terikat oleh syarat dan ketentuan ini. Jika Anda tidak setuju dengan bagian mana pun dari syarat ini, Anda tidak boleh menggunakan layanan kami.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">2. Deskripsi Layanan</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >2. Deskripsi Layanan</h2>
             <p>
               Kelas Inovatif menyediakan webinar dan pelatihan online terkait publikasi ilmiah, khususnya strategi memilih jurnal Scopus yang tepat. Layanan ini disediakan dalam bentuk webinar interaktif melalui platform Zoom Meeting.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">3. Pendaftaran dan Pembayaran</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >3. Pendaftaran dan Pembayaran</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Pendaftaran dilakukan melalui formulir online yang tersedia di website.</li>
               <li>Pembayaran harus dilakukan sesuai dengan metode yang tersedia.</li>
@@ -52,7 +64,10 @@ export function TermsOfService() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">4. Kebijakan Pembatalan dan Pengembalian</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >4. Kebijakan Pembatalan dan Pengembalian</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Pembatalan dapat dilakukan maksimal 24 jam sebelum acara dimulai.</li>
               <li>Pengembalian dana akan diproses dalam waktu 5-7 hari kerja setelah permintaan pembatalan disetujui.</li>
@@ -61,28 +76,40 @@ export function TermsOfService() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">5. Hak Kekayaan Intelektual</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >5. Hak Kekayaan Intelektual</h2>
             <p>
               Semua materi webinar, termasuk namun tidak terbatas pada video, audio, dokumen, dan presentasi, adalah hak kekayaan intelektual Kelas Inovatif. Materi ini tidak boleh direproduksi, didistribusikan, atau digunakan untuk keperluan komersial tanpa izin tertulis dari Kelas Inovatif.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">6. Keterbatasan Tanggung Jawab</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >6. Keterbatasan Tanggung Jawab</h2>
             <p>
               Kelas Inovatif tidak bertanggung jawab atas kerugian langsung, tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan layanan kami. Kami berusaha memberikan informasi yang akurat, namun tidak menjamin bahwa semua informasi selalu mutakhir atau bebas dari kesalahan.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">7. Perubahan Syarat</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >7. Perubahan Syarat</h2>
             <p>
               Kami berhak mengubah syarat dan ketentuan ini kapan saja. Perubahan akan diberitahukan melalui email atau pemberitahuan di website. Penggunaan layanan setelah perubahan berarti Anda menyetujui syarat dan ketentuan yang baru.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 mb-4">8. Kontak</h2>
+            <h2 
+              className="text-2xl font-bold text-slate-900 mb-4"
+              style={{ fontWeight: 900 }}
+            >8. Kontak</h2>
             <p>
               Jika Anda memiliki pertanyaan tentang Syarat & Ketentuan ini, silakan hubungi kami di:
             </p>

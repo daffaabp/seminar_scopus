@@ -16,7 +16,10 @@ export function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-10">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 mb-4 font-bold">
+          <h2 
+            className="text-2xl sm:text-3xl lg:text-4xl text-slate-900 mb-4 font-bold"
+            style={{ fontWeight: 900 }}
+          >
             Apa Saja yang Akan Anda Dapatkan?
           </h2>
         </div>

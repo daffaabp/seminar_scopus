@@ -34,7 +34,10 @@ export function SpeakersSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 mb-6 font-bold">
+          <h2 
+            className="text-3xl sm:text-4xl lg:text-5xl text-slate-900 mb-6 font-bold"
+            style={{ fontWeight: 900 }}
+          >
             Belajar dari Para Ahli
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
@@ -61,7 +64,10 @@ export function SpeakersSection() {
                     />
                   </div>
                 </div>
-                <h3 className="text-xl text-slate-900 mb-2 font-semibold">
+                <h3 
+                  className="text-xl text-slate-900 mb-2 font-bold"
+                  style={{ fontWeight: 900 }}
+                >
                   {speaker.name}
                 </h3>
                 <p className="text-lg text-blue-600 mb-4 font-medium">
@@ -79,7 +85,10 @@ export function SpeakersSection() {
         {/* Why Us Section */}
         <div className="mt-16 text-center max-w-4xl mx-auto">
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 lg:p-12 border border-blue-100">
-            <h3 className="text-2xl lg:text-3xl text-slate-900 mb-6 font-semibold">
+            <h3 
+              className="text-2xl lg:text-3xl text-slate-900 mb-6 font-bold"
+              style={{ fontWeight: 900 }}
+            >
               Mengapa Workshop Ini Berbeda?
             </h3>
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
